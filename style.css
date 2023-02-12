@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 10;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+  
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -43,10 +43,10 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px ;
 }
+
 
 .bloc-md {
     padding: 50px;
@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -99,9 +98,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -136,6 +133,7 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -158,7 +156,8 @@ a:hover {
 }
 
 .d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
+
+ .btn-wire:hover {
     color: rgba(255, 255, 255, 1);
     border-color: rgba(255, 255, 255, 1);
 }
@@ -193,8 +192,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
+.d-bloc .panel
+
+ {
     color: rgba(0, 0, 0, .5);
 }
 
@@ -283,9 +283,7 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
+
 
 .navbar {
     margin-bottom: 0;
@@ -330,6 +328,9 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+}
+text {
+    font-size: xx-large;
 }
 
 .nav > li a:hover,
@@ -390,7 +391,7 @@ a:hover {
         float: none;
         display: inline-block;
     }
-    .nav-center .site-navigation {
+    .nav-center {
         position: relative;
         width: 100%;
         right: 0;
@@ -438,6 +439,14 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+ 
+}
+.font_30{
+    font-size: 30px;
+    color: #000!important;
+    font-weight: 900;
+ 
+   
 }
 
 .mg-lg {
@@ -447,6 +456,7 @@ nav .caret {
 
 .btn {
     margin: 0 5px 5px 0;
+    transition: .3s ease-in-out;
 }
 
 .btn.pull-right {
@@ -461,7 +471,12 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    background-color:  #F3976C;
+    border-radius:40px  ;
+    border: 1px solid #302c2c ;
+    height: 40px;
+    padding: 6px 28px 6px 28px;
+  
 }
 
 .btn-rd {
@@ -469,10 +484,8 @@ button {
 }
 
 .btn-clean {
-    border: 1px solid rgba(0, 0, 0, .08);
-    border-bottom-color: rgba(0, 0, 0, .1);
-    text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
-    box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
+    border: 1px solid #302c2c;
+
 }
 
 .icon-md {
@@ -651,15 +664,19 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #0b0a0a!important;
+}
+h1{
+    font-weight: 900;
 }
 
 .container {
-    max-width: 1000px;
+ width: 100%;
 }
 
+
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 42px;
 }
 
 .hero-bloc-text-sub {
@@ -677,31 +694,39 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 21px;
+}
+.font_16{
+    font-size: 16px;
 }
 
-.tight-width-whitespace {
+.tight-width-whitespace  {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto ;
+}
+.title{
+    text-shadow: 0 0 30px #fff!important;
+
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-}
+
+
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 6px 28px 6px 28px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+ 
+    margin-left: 37%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -713,7 +738,6 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -722,9 +746,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -735,12 +757,10 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
+
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+  margin: auto;
 }
 
 .portfolio-row {
@@ -753,17 +773,18 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:rgb(207 109 96 / 70%);
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: none!important;
+
 }
 
 .bgc-white {
-    background-color: #FFFFFF;
+    background-color: #f9f6f6;
 }
 
 .bgc-dark-slate-blue {
@@ -774,13 +795,11 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color: #F3976C!important;
-}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #181414!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -789,7 +808,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color:black!important;
 }
 
 .ltc-white:hover {
@@ -810,19 +829,16 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/texture-paper.webp") ;
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/la_panthére_agence_banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image_de_presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1038,5 +1054,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .col-sm-3{
+        margin: auto;
     }
 }

@@ -2010,10 +2010,7 @@ pre code {
     margin-left: auto
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -2304,7 +2301,8 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        float:none;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -5075,11 +5073,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
-@media (min-width:768px) {
-    .navbar-header {
-        float: left
-    }
-}
+
 
 .navbar-collapse {
     padding-right: 15px;
@@ -7682,7 +7676,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
