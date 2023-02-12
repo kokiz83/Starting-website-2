@@ -426,7 +426,7 @@ nav .caret {
 }
 .font_30{
     font-size: 30px;
-    /*color: #000!important;*/
+    color: #f3976c !important;
     font-weight: 900;
  
    
@@ -651,6 +651,7 @@ a {
 }
 h1{
     font-weight: 900;
+     color: #f3976c !important;;
 }
 
 .container {
@@ -687,10 +688,7 @@ p {
     max-width: 600px;
     margin: auto ;
 }
-.title{
-    text-shadow: 0 0 30px #fff!important;
 
-}
 
 
 
