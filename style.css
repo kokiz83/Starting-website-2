@@ -1,10 +1,9 @@
 body {
     margin: 0;
-    padding: 10;
+    padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   
 }
 
 a,
@@ -31,10 +30,8 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  padding: 0 50px;
+    
     background-size: cover;
     position: relative;
 }
@@ -54,6 +51,15 @@ a:hover {
 
 .bloc-sm {
     padding: 20px 50px;
+}
+.col-sm-12{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .bg-center,
@@ -656,7 +662,7 @@ h1{
 }
 
 .container {
- width: 100%;
+ max-width: 1000px;;
 }
 
 
@@ -708,10 +714,13 @@ p {
 .social {
     max-width: 400px;
  
-    margin-left: 37%;
+    margin-left: 5%;
     color: black;
-    display: flex;
     justify-content: space-between;
+    align-content: flex-end;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 h2 {
