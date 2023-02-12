@@ -676,7 +676,7 @@ h1{
 
 
 .hero-bloc-text {
-    font-size: 42px;
+    font-size: 42px !important;
 }
 
 .hero-bloc-text-sub {
