@@ -156,7 +156,7 @@ button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
-    -webkit-appearance: button;
+  
     cursor: pointer
 }
 
@@ -192,7 +192,7 @@ input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+   
 }
 
 input[type=search]::-webkit-search-cancel-button,
@@ -3189,9 +3189,7 @@ textarea.form-control {
     height: auto
 }
 
-input[type=search] {
-    -webkit-appearance: none
-}
+
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type=date].form-control,
@@ -7050,7 +7048,6 @@ button.list-group-item-danger.active:hover {
 }
 
 button.close {
-    -webkit-appearance: none;
     padding: 0;
     cursor: pointer;
     background: 0 0;
