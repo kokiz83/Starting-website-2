@@ -52,15 +52,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-.col-sm-12{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: wrap;
-}
+
 
 .bg-center,
 .bg-l-edge,
@@ -434,7 +426,7 @@ nav .caret {
 }
 .font_30{
     font-size: 30px;
-    color: #000!important;
+    /*color: #000!important;*/
     font-weight: 900;
  
    
@@ -655,7 +647,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #080808!important;
+    /*color: #080808!important;*/
 }
 h1{
     font-weight: 900;
@@ -713,14 +705,7 @@ p {
 
 .social {
     max-width: 400px;
- 
-    margin-left: 5%;
-    color: black;
-    justify-content: space-between;
-    align-content: flex-end;
-    align-items: stretch;
-    flex-wrap: nowrap;
-    flex-direction: row;
+margin: auto;
 }
 
 h2 {
