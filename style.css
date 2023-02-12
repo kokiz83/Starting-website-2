@@ -44,7 +44,13 @@ a:hover {
     padding: 100px ;
 }
 
-
+.forum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 .bloc-md {
     padding: 50px;
 }
