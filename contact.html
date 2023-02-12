@@ -3,16 +3,26 @@
 
 <head>
 	<meta charset="utf-8">
+	<!--changer-->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<meta name="description"
-		content="entreprise webdesign Lyon, développement professionnel lyon, experience webdesign lyon">
+		content="La Panthère, agence web basé à lyon, une entreprise de webdesign , spécialisé dans l'accessibilité">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-	<link rel="shortcut icon" type="image/webp" href="img/favicon.webp">
+	<link rel="shortcut icon" type="image/webp" href="favicon.webp">
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
+
+	<script defer src="./js/jquery-2.1.0.js"></script>
+	<script defer src="./js/bootstrap.js"></script>
+	<script defer src="./js/blocs.js"></script>
+	<script defer src="./js/jquery.touchSwipe.js"></script>
+	<!--suprimer il sert a rien -->
+	<!--<script src="./js/gmaps.js"></script>-->
 
 	<title>Agence de web design</title>
 
@@ -43,11 +53,11 @@
 					</a>
 					<ul class="site-navigation nav navbar-nav">
 						<li>
-							<a href="index.html">Accueil</a>
+							<a href="index.html" title="lien vers page d'accueil">Accueil</a>
 						</li>
 
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.html" title="lien vers page de contact">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -68,10 +78,10 @@
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace ">
 					<div class="col-sm-12">
-						<img src="img/logo-3.webp" class="center-block image-resize-mode" width="100"
-							alt="Agence La Panthère, agence web paris, création logo paris" />
+						
 						<h1 class="text-center hero-bloc-text tc-white ">
-							Agence La Panthère
+							Parlons web design !
+							
 						</h1>
 						<div class="text-center">
 							<p class="text-center mg-lg tc-white tight-width-whitespace">
@@ -94,28 +104,30 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
-									required></textarea>
+								</label>
+								<textarea id="message" class="form-control" rows="4" cols="50"
+									required>
+								</textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
@@ -125,7 +137,7 @@
 					</div>
 					<div class="col-sm-6">
 						<h5>
-							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
+							<a href="contact">contact@agencelapanthere.com</a> <br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 							au vendredi<br>
 						</h5>
 					</div>
