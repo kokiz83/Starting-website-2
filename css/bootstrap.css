@@ -3191,7 +3191,7 @@ textarea.form-control {
 
 
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-pixel-ratio:0) {
     input[type=date].form-control,
     input[type=time].form-control,
     input[type=datetime-local].form-control,
@@ -4282,7 +4282,7 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    border-top: 4px solid ;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -5116,7 +5116,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7826,7 +7826,7 @@ button.close {
 }
 
 @-ms-viewport {
-    width: device-width
+    width: width
 }
 
 .visible-lg,
