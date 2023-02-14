@@ -745,6 +745,7 @@ h4 {
 
 .portfolio-thumb {
   margin: auto;
+  width: 100%;
 }
 
 .portfolio-row {
@@ -809,12 +810,6 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-.bg-dots-bg {
-    background-image: url("img/texture-paper.webp") ;
-}
-
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
 }
