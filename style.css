@@ -94,9 +94,6 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background-size: 280px 280px;
-}
 
 .b-parallax {
     background-attachment: fixed;
@@ -817,7 +814,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image_de_presentation.webp");
 }
-
+@media (max-width: 400px){
+.bg-banniere 
+    {background-image: url("img/agence_la_panthere-small.webp")};
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -857,9 +857,7 @@ h4 {
     .container {
         width: 100%;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+  
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
@@ -894,9 +892,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+   
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
